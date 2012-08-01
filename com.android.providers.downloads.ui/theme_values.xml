@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI_Theme_Values>
+    
+	 <color name="tab_text_selected">#ffffffff</color>
+    <color name="text_normal">#ff808080</color>
+    
+</MIUI_Theme_Values>

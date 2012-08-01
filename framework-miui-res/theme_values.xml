@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MIUI_Theme_Values>
+
+    <color name="secondary_tab_text_color">#ff8c8c8c</color>
+    <color name="secondary_tab_text_pressed_color">#ffffffff</color>
+	<color name="secondary_tab_text_selected_color">#ffffffff</color>
+	
+	 <color name="guide_popup_window_textColor">#ffffffff</color>
+	
+	<color name="alphabet_indexer_overlay_text_color">#ffffffff</color>
+	<color name="alphabet_indexer_text_color">#ff8c8c8c</color>
+	<color name="alphabet_indexer_highlight_text_color">#ffffffff</color>
+	
+    <color name="button_text_color">#ffffffff</color>
+    <color name="button_text_color_disabled">#80ffffff</color>
+	<color name="button_text_shadow">#80ffffff</color>
+		
+    <color name="primary_text_holo_light">#ffffffff</color>
+	<color name="secondary_text_holo_light">#ff8c8c8c</color>
+	
+	<color name="primary_text_holo_dark">#ffffffff</color>
+    <color name="secondary_text_holo_dark">#ff8c8c8c</color>
+	
+	<color name="android_config_defaultNotificationColor">#ffffffff</color>
+			
+    <color name="information_warning">#ff8c8c8c</color>
+		    
+    <color name="primary_text_color_inverse">#ffffffff</color>
+    <color name="secondary_text_color_inverse">#ff8c8c8c</color>
+	
+    <color name="primary_text_color_shadow">#80ffffff</color>
+    <color name="secondary_text_color_shadow">#80ffffff</color>
+	
+    <color name="android_listseparator_text_holo_light">#ffffffff</color>
+        
+	<color name="primary_tab_text_pressed_color">#ffffffff</color>
+    <color name="primary_tab_text_selected_color">#ffffffff</color>
+    <color name="primary_tab_text_color">#ff8c8c8c</color>
+	
+	<color name="darker_transparent">#00000000</color>
+	
+	<drawable name="screen_background_light">#ff000000</drawable>
+	<drawable name="screen_background_dark">#ff000000</drawable>
+    <drawable name="screen_background_holo_light">#ff000000</drawable>
+	<drawable name="screen_background_holo_dark">#ff000000</drawable>
+
+	
+			
+</MIUI_Theme_Values>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lockscreen version="1" frameRate="30">
+
+    <Var name="dismiss_x" expression="#screen_width/2" const="true" />
+    <Var name="dismiss_y" expression="#screen_height-281" const="true" />
+
+
+<Image src="alarm_alert_bg.png" src = "alarm_alert_bg.png" srcid="ifelse(ge(#hour24, 4) * lt(#hour24, 10), 0, ifelse(ge(#hour24, 10) * lt(#hour24, 15), 1, ifelse(ge(#hour24, 15) * lt(#hour24, 18), 2, 3)))"/>
+
+
+<Button name="snooze_alarm" x="#dismiss_x - (#snooze_text.text_width + 120)/2" y="270" w="#snooze_text.text_width + 120" h="60" >
+            <Normal>
+                <Image x="#dismiss_x" y="265" w="#snooze_text.text_width + 120" align="center" src="snooze_bg_normal.9.png">
+                </Image>
+		<Text name="snooze_text" x="#dismiss_x" y="298" size="22" color="#00000000" align="center" text="@snooze_message"/>
+            </Normal>
+            <Pressed>
+                <Image x="#dismiss_x" y="265" w="#snooze_text.text_width + 120" align="center" src="snooze_bg_pressed.9.png">
+                </Image>
+		<Text name="snooze_text" x="#dismiss_x" y="298" size="22" color="#00000000" align="center" text="@snooze_message"/>
+            </Pressed>
+</Button>
+
+<Text x="#dismiss_x" y="#dismiss_y - 105" size="28" color="#ff33b5e5" align="center" text="@drag_message"/>
+<Text name="label_text" x="#dismiss_x" y="140" size="18" color="#ff33b5e5" align="center" alignV="bottom" text="@label"/>
+
+<Image x="#dismiss_x - #label_text.text_width/2 - 25" y="152" align="center" alignV="center" src="alarm_small_icon.png" />
+
+<!--Hora, fecha -->
+<Time x="#screen_width/2" y="120" align="center" alignV="bottom" src="alarm_screen_bar_time.png">
+</Time>
+
+<!-- guía de desbloqueo -->
+<!--><Image x="#dismiss_x" y="#dismiss_y+64" align="center" alignV="center" src="lock_screen_indicator_anim.png" visibility="true">
+<Mask x="#dismiss_x-10" y="#dismiss_y-150" src="lock_screen_indicator_anim_mask.png" align="absolute"/>
+<PositionAnimation>
+    <Position x="0" y="0" time="0"/>
+    <Position x="0" y="126" time="1500"/>
+</PositionAnimation>
+</Image><!-->
+
+<Slider name="dismiss_alarm" bounceInitSpeed="10" bounceAcceleration="1500">
+    <StartPoint x="#dismiss_x-60" y="#dismiss_y-60" w="120" h="120">
+            <NormalState>
+                <Image x="#dismiss_x" y="#dismiss_y" align="center" alignV="center" src="btn_dismiss_alarm_0.png">
+                </Image>
+            </NormalState>
+            <PressedState>
+                <Image x="#dismiss_x" y="#dismiss_y" align="center" alignV="center" src="btn_dismiss_alarm_1.png">
+                </Image>
+            </PressedState>
+    </StartPoint>
+
+    <EndPoint name="dismiss_endpoint" x="#dismiss_x-60" y="#dismiss_y+80" w="10" h="100">
+            <NormalState>
+                <Image x="#dismiss_x" y="#dismiss_y+190" align="center" alignV="center" src="btn_dismiss_alarm_target_0.png">
+                </Image>
+            </NormalState>
+            <ReachedState>
+                <Image x="#dismiss_x" y="#dismiss_y+190" align="center" alignV="center" src="btn_dismiss_alarm_target_1.png"/>
+            </ReachedState>
+
+           <Path x="#dismiss_x-60" y="#dismiss_y-60">
+               <Position x="0" y="0" />
+               <Position x="0" y="190" />
+           </Path>
+    </EndPoint>
+
+</Slider>
+
+</Lockscreen>

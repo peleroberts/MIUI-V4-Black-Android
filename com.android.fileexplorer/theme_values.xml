@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MIUI_Theme_Values>
+	 <color name="yellow">#fffff000</color>
+    <color name="gray">#ffffffff</color>
+    <color name="orange">#ffffffff</color>
+    <color name="deepcolor">#fffaaa5f</color>
+    <color name="shadowcolor">#ffffffff</color>
+    <color name="naming">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="background">#ff000000</color>
+    <color name="orange_yellow">#ffffffff</color>
+    <color name="remote_connect_text">#ffffffff</color>
+    <color name="remote_disconnect_text">#ff727272</color>
+    <color name="remote_disconnect_text">#ff808080</color>
+    <color name="background_main">#ff000000</color>
+    <color name="background_white">#ffe0e0e8</color>
+    <color name="background_blue">#ff70a8f0</color>
+    <color name="primary_tab_text_color">#ff808080</color>
+    <color name="primary_tab_text_pressed_color">#ffffffff</color>
+    <color name="primary_tab_text_selected_color">#ffffffff</color>
+    <color name="clean_title_color">#ffdd2020</color>
+    <color name="clean_message_color">#ff808080</color>
+</MIUI_Theme_Values>

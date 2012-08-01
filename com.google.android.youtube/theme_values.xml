@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MIUI_Theme_Values>
+   
+	<color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_grey">#ffcccccc</color>
+    <color name="grey">#ff888888</color>
+    <color name="dark_grey">#ff212121</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="lighter_transparent">#20ffffff</color>
+    <color name="light_transparent">#40ffffff</color>
+    <color name="dark_transparent">#61000000</color>
+    <color name="darker_transparent">#c1000000</color>
+    <color name="red">#ffdd0000</color>
+    <color name="dark_red">#ff990000</color>
+    <color name="ics_light_grey">#ffe6e6e6</color>
+    <color name="ics_grey">#ff555555</color>
+    <color name="ics_dark_grey">#ff3d3d3d</color>
+    <color name="ics_blue">#ff0099cc</color>
+    <color name="ics_blue_glow">#ff33b5e5</color>
+    <color name="ics_red">#ffcc0000</color>
+    <color name="link_highlight">#ff990000</color>
+    <color name="primary_background">#ffcccccc</color>
+    <color name="primary_font">#ff8c8c8c</color>
+    <color name="secondary_font">#ff888888</color>
+    <color name="primary_contrast_font">#ffffffff</color>
+    <color name="secondary_contrast_font">#ff888888</color>
+    <color name="video_overlay">#99000000</color>
+    <color name="video_item_duration_font">#ffffffff</color>
+    <color name="video_item_duration_background">#ff000000</color>
+    <color name="button_panel_separator">#1f000000</color>
+    <color name="undefined_font">#ff000000</color>
+    <color name="contextual_menu_top">#ff0099cc</color>
+    <color name="contextual_menu_bottom">#ff3d3d3d</color>
+    <color name="playlist_thumbnail_outer_border_color">#33333333</color>
+    <color name="playlist_thumbnail_inner_border_color">#ff2a6ae9</color>
+    <color name="playlist_thumbnail_bitmap_color">#cc000000</color>
+   
+   
+    <drawable name="screen_background_light">#ff000000</drawable>
+	<drawable name="screen_background_dark">#ff000000</drawable>
+    <drawable name="screen_background_holo_light">#ff000000</drawable>
+	<drawable name="screen_background_holo_dark">#ff000000</drawable>
+	
+</MIUI_Theme_Values>

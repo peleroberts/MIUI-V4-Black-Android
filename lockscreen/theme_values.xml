@@ -1,0 +1,9 @@
+<MIUI_Theme_Values>
+    <bool name="config_show_status_bar_battery_for_keyguard">true</bool>
+    <bool name="config_show_status_bar_carrier_for_keyguard">true</bool>
+    <bool name="config_show_status_bar_date_for_keyguard">false</bool>
+    <bool name="config_show_status_bar_notification_for_keyguard">true</bool>
+    <bool name="config_show_status_bar_status_for_keyguard">false</bool>
+    <bool name="config_show_status_bar_time_for_keyguard">false</bool>
+    <bool name="config_lock_screen_battery_animation_horizontal">true</bool>
+</MIUI_Theme_Values>

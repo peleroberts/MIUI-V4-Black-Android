@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<clock version="1" type="awesome" update_interval="1000" edit_tag_x="180" edit_tag_y="20">
+   
+    <Image x="0" y="20" src="dial.png"/>
+    <Image x="108" y="26" centerX="6" centerY="114" src="hand_hour.png" angle="#hour12*30+#minute/2" antiAlias="true"/>
+    <Image x="108" y="26" centerX="6" centerY="114" src="hand_minute.png" angle="#minute*6+#second/10" antiAlias="true"/>
+    <Image x="108" y="26" centerX="6" centerY="114" src="hand_second.png" angle="#second*6" antiAlias="true"/>
+	
+</clock>

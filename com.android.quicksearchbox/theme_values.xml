@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI_Theme_Values>
+    
+	<color name="search_hint">#ffffffff</color>
+    <color name="pane_background">#ff000000</color>
+	
+</MIUI_Theme_Values>
